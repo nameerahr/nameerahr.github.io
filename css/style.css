@@ -1,0 +1,225 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #16e0bd 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin: 0;
+
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #16e0bd;
+    font-weight: bold;
+
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+
+}
+
+/* Showcase */
+#showcase{
+    min-height: 350px;
+    background:url('../img/two.jpg') no-repeat ;
+    background-size: 100%;
+    text-align:center;
+    color: #ffffff;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+#showcase p{
+    font-size: 17px;
+}
+
+/* Introduction */
+
+#introduction{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+} 
+
+#introduction h1{
+    text-align: center;
+}
+
+/* Boxes */
+
+#boxes{
+    margin-top 20px;
+}
+
+#boxes .box{
+    float:left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    height: 130px;
+}
+
+#email{
+    color: #ffffff;
+    background: #35424a;
+    padding-left: 15px;
+    border-top: #ffffff 2px solid;
+}
+/* Footer */
+
+footer{
+    padding: 1px;
+    margin-top:1px;
+    color: #ffffff;
+    background-color: #16e0bd;
+    text-align: center;
+}
+
+/* Projects Introduction */
+
+#projectsintro{
+    padding: 15px;
+    text-align: center;
+    border-bottom: #ffffff 3px solid;
+    color: #ffffff;
+    background: #35424a;
+} 
+
+#projectsintro h1{
+    text-align: center;
+}
+
+/* Projects */
+
+#projects{
+    margin-top 20px;
+    border-bottom: #16e0bd 2px solid;
+}
+
+#projects .project{
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+}
+
+#projects .project img{
+    height: 175px;
+}
+
+/* Education */
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .uni{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .uni img{
+    height: 250px;
+}
+
+#boxes .uni p{
+    font-style: italic;
+}
+
+/*Contact Me */
+
+#socials{
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px){
+    header #branding, header nav, header nav li, #introduction, #boxes .box, #projects .project, #socials{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #showcase{
+        background-size: 100%;
+        min-height: 270px;
+    }
+
+    #showcase h1{
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    #introduction{
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+
+    #projects .project img{
+        height: 140px;
+    }
+
+}
