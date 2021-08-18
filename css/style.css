@@ -102,7 +102,7 @@ header a:hover{
 /* Boxes */
 
 #boxes{
-    margin-top 20px;
+    margin-top: 20px;
 }
 
 #boxes .box{
@@ -149,11 +149,12 @@ footer{
 /* Projects */
 
 #projects{
-    margin-top 20px;
+    margin-top: 20px;
     border-bottom: #16e0bd 2px solid;
 }
 
 #projects .project{
+    float: left;
     width: 45%;
     padding: 20px;
     text-align: center;
