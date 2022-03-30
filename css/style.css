@@ -8,7 +8,7 @@ body {
 }
 
 /* Global */
-.container{
+.container{ 
     width:80%;
     margin:auto;
     overflow:hidden;
@@ -103,6 +103,8 @@ header a:hover{
 
 #boxes{
     margin-top: 20px;
+    padding-top: 30px;
+    border-top: #16e0bd 3px solid;
 }
 
 #boxes .box{
@@ -120,7 +122,7 @@ header a:hover{
     color: #ffffff;
     background: #35424a;
     padding-left: 15px;
-    border-top: #ffffff 2px solid;
+    border-top: #ffffff 3px solid;
 }
 /* Footer */
 
@@ -128,7 +130,7 @@ footer{
     padding: 1px;
     margin-top:1px;
     color: #ffffff;
-    background-color: #16e0bd;
+    background-color: #10ae94;
     text-align: center;
 }
 
@@ -150,7 +152,6 @@ footer{
 
 #projects{
     margin-top: 20px;
-    border-bottom: #16e0bd 2px solid;
 }
 
 #projects .project{
@@ -161,7 +162,7 @@ footer{
 }
 
 #projects .project img{
-    height: 175px;
+    height: 225px;
 }
 
 /* Education */
@@ -222,5 +223,4 @@ footer{
     #projects .project img{
         height: 140px;
     }
-
 }
