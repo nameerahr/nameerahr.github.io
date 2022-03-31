@@ -165,6 +165,10 @@ footer{
     height: 225px;
 }
 
+#projects a{
+    color: #35424a;
+}
+
 /* Education */
 
 #boxes{
