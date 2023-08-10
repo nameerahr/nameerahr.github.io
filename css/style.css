@@ -175,7 +175,6 @@ footer{
 /* Education */
 
 #boxes .uni{
-    float: left;
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -187,6 +186,21 @@ footer{
 
 #boxes .uni p{
     font-style: italic;
+}
+
+.uni.special{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uni h4{
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.star{
+    color: #10ae94;
 }
 
 /*Contact Me */
